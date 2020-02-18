@@ -60,7 +60,7 @@ i = 0
 total_sum = 0
 while i < source.length do
   director = source[i]
-  total_sum =+ directors_totals(director)
+  total_sum =+ gross_for_directo(director)
   i += 1
 end
 p total_sum
