@@ -57,5 +57,5 @@ def total_gross(source)
 #   end
 #   p total_sum
 
-p directors_totals(source).[:name]
+p directors_totals(source)
 end
