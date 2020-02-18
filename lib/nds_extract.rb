@@ -57,11 +57,10 @@ def total_gross(source)
 #   end
 #   p total_sum
 i = 0
-my_array = []
-while i < list_of_directors(source).length do
-  my_array.push(list_of_directors(source))
+total_sum = 0
+while i < source.length do
+  total_sum =+ gross_for_director(director)
   i += 1
 end
-p my_array
-
+p total_sum
 end
