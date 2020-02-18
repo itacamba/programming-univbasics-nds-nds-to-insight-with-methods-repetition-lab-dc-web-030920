@@ -56,5 +56,13 @@ def total_gross(source)
 #     director_counter += 1
 #   end
 #   p total_sum
-pp source
+row_index = 0
+while row_index < source.length do
+  p gross_for_director
+
+end
+
+
+
+
 end
