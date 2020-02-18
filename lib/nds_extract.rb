@@ -56,6 +56,11 @@ def total_gross(source)
 #     director_counter += 1
 #   end
 #   p total_sum
-p list_of_directors(source)
+i = 0
+my_array = []
+while i < list_of_directors(source).length do
+  my_array.push(list_of_directors(source))
+end
+p my_array
 
 end
