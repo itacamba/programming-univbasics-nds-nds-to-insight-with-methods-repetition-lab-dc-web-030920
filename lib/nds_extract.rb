@@ -59,7 +59,7 @@ def total_gross(source)
 row_index = 0
 while row_index < source.length do
   p gross_for_director(source)
-
+row_index += 1
 end
 
 
