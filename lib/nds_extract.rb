@@ -53,4 +53,5 @@ total_sum = 0
     total_sum += directors_totals(source)
     director_counter += 1
   end
+  p total_sum
 end
