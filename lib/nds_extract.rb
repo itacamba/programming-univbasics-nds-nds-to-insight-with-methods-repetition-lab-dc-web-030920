@@ -61,7 +61,7 @@ total_sum = 0
 while i < source.length do
   j = 0
   while j < source[i].length do
-  director = source[i]
+  director = source[i][j]
   total_sum =+ gross_for_director(director)
   j += 1
   end
