@@ -60,6 +60,7 @@ i = 0
 my_array = []
 while i < list_of_directors(source).length do
   my_array.push(list_of_directors(source))
+  i += 1
 end
 p my_array
 
