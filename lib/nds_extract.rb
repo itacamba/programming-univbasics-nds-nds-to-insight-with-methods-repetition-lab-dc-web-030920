@@ -58,10 +58,8 @@ def total_gross(source)
 #   p total_sum
 row_index = 0
 sum = 0
-my_integer = Hash[directors_totals(source).map {|k,v| [k, v.to_i]}]
-while row_index < source.length do
-  sum += my_integer
-row_index += 1
+directors_totals(source).each do |key,value|
+  sum = value
 end
 
 
