@@ -48,8 +48,9 @@ def total_gross(source)
   # returned by directors_totals, and add it to a running total. When done,
   # return the total
 director_counter = 0
+total_sum = 0
   while director_counter < source.length do
-    p source[director_counter]
+    total_sum += directors_totals(source)
     director_counter += 1
   end
 end
