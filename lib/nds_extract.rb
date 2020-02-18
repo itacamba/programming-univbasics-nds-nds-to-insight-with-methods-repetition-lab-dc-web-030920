@@ -56,6 +56,6 @@ def total_gross(source)
 #     director_counter += 1
 #   end
 #   p total_sum
+p list_of_directors(source)
 
-p source
 end
