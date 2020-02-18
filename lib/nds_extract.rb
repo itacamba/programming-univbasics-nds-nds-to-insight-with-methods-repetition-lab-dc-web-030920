@@ -57,12 +57,12 @@ def total_gross(source)
 #   end
 #   p total_sum
 row_index = 0
+sum = 0
+my_integer = gross_for_director(source)[y.map {|k,v| [k, v.to_i]}]
 while row_index < source.length do
-  p gross_for_director(source)
+  sum += my_integer
 row_index += 1
 end
-
-
 
 
 end
