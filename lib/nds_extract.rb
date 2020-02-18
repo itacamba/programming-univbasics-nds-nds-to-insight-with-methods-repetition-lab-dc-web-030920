@@ -16,7 +16,7 @@ def gross_for_director(source)
   total = 0
   index = 0
 
-  while index < source[:movies].length do
+  while index < source[index].length do
     total += source[:movies][index][:worldwide_gross]
     index += 1
   end
@@ -58,7 +58,7 @@ def total_gross(source)
 #   p total_sum
 row_index = 0
 sum = 0
-my_integer = gross_for_director(source)[y.map {|k,v| [k, v.to_i]}]
+my_integer = Hash[directors_totals(source).map {|k,v| [k, v.to_i]}]
 while row_index < source.length do
   sum += my_integer
 row_index += 1
