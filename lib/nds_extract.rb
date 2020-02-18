@@ -56,11 +56,8 @@ def total_gross(source)
 #     director_counter += 1
 #   end
 #   p total_sum
-row_index = 0
 sum = 0
-directors_totals(source).each do |key,value|
-  sum = value
-end
+directors_totals(source).inject(0) {|sum, hash| sum + hash[1]}
 
 
 end
